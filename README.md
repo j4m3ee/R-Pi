@@ -1,4 +1,4 @@
-## This is My R-Pi Project ##
+## This is My R-Pi Project
 Set up List
 sudo apt-get update && sudo apt-get upgrade
 
