@@ -1,5 +1,5 @@
 ## This is My R-Pi Project
-#Set up List
+###Set up List
 - sudo apt-get update && sudo apt-get upgrade
 
 **Remote Desktop** ([credit](https://www.youtube.com/watch?v=0I5DYtx2WKQ))
@@ -19,11 +19,17 @@ static domain_name_servers=192.168.0.1
 ```
 - sudo reboot
 
+**Root user**
+- 
+
 **Wake on Lan** ([credit](https://notenoughtech.com/raspberry-pi/use-raspberry-pi-wol/))
 - sudo apt-get install etherwake
 
 **Git**
 - sudo apt install git
+
+**Pi-hole**
+- curl -sSL https://install.pi-hole.net | bash
 
 
 
