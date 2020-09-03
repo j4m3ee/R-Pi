@@ -20,7 +20,7 @@ static domain_name_servers=192.168.0.1
 - sudo reboot
 
 **Root user**
-- 
+- sudo passwd root
 
 **Wake on Lan** ([credit](https://notenoughtech.com/raspberry-pi/use-raspberry-pi-wol/))
 - sudo apt-get install etherwake
