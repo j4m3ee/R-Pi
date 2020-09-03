@@ -1,5 +1,5 @@
-#This is My R-Pi Project
-## Set up List ##
+## This is My R-Pi Project ##
+Set up List
 sudo apt-get update && sudo apt-get upgrade
 
 Remote Desktop (credit -> shorturl.at/sNW06)
