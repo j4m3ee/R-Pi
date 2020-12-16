@@ -39,7 +39,7 @@ static domain_name_servers=192.168.0.1
 **Set-up without Monitor**
 - create file ```ssh.txt``` for open ssh
 - create file ```wpa_supplicant.conf``` for connect wireless
- put this text inside
+ and put this text inside
  
  ```
  ctrl_interface=DIR=/var/run/wpa_supplicant GROUP=netdev
