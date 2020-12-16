@@ -37,11 +37,11 @@ static domain_name_servers=192.168.0.1
 - sudo apt install php libapache2-mod-php -y
 
 **Set-up without Monitor**
-- create file '''ssh.txt''' for open ssh
-- create file '''wpa_supplicant.conf''' for connect wireless
+- create file ```ssh.txt``` for open ssh
+- create file ```wpa_supplicant.conf``` for connect wireless
  put this text inside
  
- '''
+ ```
  ctrl_interface=DIR=/var/run/wpa_supplicant GROUP=netdev
 update_config=1
 country=<Insert 2 letter ISO 3166-1 country code here>
@@ -50,7 +50,7 @@ network={
  ssid="<Name of your wireless LAN>"
  psk="<Password for your wireless LAN>"
 }
- '''
+```
 
 
 
