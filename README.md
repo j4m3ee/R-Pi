@@ -1,6 +1,6 @@
 ## This is My R-Pi Project
 
-###Set up List
+### Set up List
 - sudo apt-get update && sudo apt-get upgrade
 
 **Remote Desktop** ([credit](https://www.youtube.com/watch?v=0I5DYtx2WKQ))
