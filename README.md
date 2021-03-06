@@ -7,6 +7,9 @@
 - sudo apt-get install xrdp            
 - sudo apt-get install tightvncserver
 
+**Remmina**
+- sudo apt-get install remmina remmina-plugin-rdp
+
 **Static ip** ([credit](https://www.ionos.com/digitalguide/server/configuration/provide-raspberry-pi-with-a-static-ip-address/))
 - sudo service dhcpcd status
 - sudo service dhcpcd start
@@ -40,9 +43,6 @@ static domain_name_servers=192.168.0.1
 - create file ```ssh.txt``` for open ssh
 - create file ```wpa_supplicant.conf``` for connect wireless
  and put this text inside
- 
- **Remmina**
- - sudo apt-get install remmina remmina-plugin-rdp
  
  ```
  ctrl_interface=DIR=/var/run/wpa_supplicant GROUP=netdev
