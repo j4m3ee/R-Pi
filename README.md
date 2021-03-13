@@ -44,6 +44,9 @@ static domain_name_servers=192.168.0.1
 - create file ```wpa_supplicant.conf``` for connect wireless
  and put this text inside
  
+ **Install .deb file**
+- sudo dpkg -i ```file_name.deb```
+ 
  ```
  ctrl_interface=DIR=/var/run/wpa_supplicant GROUP=netdev
 update_config=1
