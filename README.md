@@ -35,6 +35,9 @@ static domain_name_servers=192.168.0.1
 **Pi-hole**
 - curl -sSL https://install.pi-hole.net | bash
 
+**NAS** ([credit](https://www.youtube.com/watch?v=q_c7rvMdM_M))
+- lsblk
+
 **Web-Server** ([credit](https://www.raspberrypi.org/documentation/remote-access/web-server/apache.md))
 - sudo apt-get install apache2 -y
 - sudo apt install php libapache2-mod-php -y
