@@ -3,6 +3,9 @@
 ### Set up List
 - sudo apt-get update && sudo apt-get upgrade
 
+**CPU Temp**
+- vcgencmd measure_temp
+
 **Remote Desktop** ([credit](https://www.youtube.com/watch?v=0I5DYtx2WKQ))
 - sudo apt-get install xrdp            
 - sudo apt-get install tightvncserver
