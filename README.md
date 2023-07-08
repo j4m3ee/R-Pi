@@ -40,6 +40,11 @@ static domain_name_servers=192.168.0.1
 
 **NAS** ([credit](https://www.youtube.com/watch?v=q_c7rvMdM_M))
 - lsblk
+- sudo mount /dev/sda1 /NAS/ExHDD01/
+- sudo chown -R snap:snap /NAS/ExHDD01/
+- /dev/sda1 /NAS/ExHDD01 auto defaults,nofail,user 0 1
+- sudo vim /etc/samba/smb.conf
+- sudo /etc/init.d/samba-ad-dc restart
 
 **Web-Server** ([credit](https://www.raspberrypi.org/documentation/remote-access/web-server/apache.md))
 - sudo apt-get install apache2 -y
