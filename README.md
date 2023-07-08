@@ -35,6 +35,12 @@ static domain_name_servers=192.168.0.1
 
 **Wake on Lan** ([credit](https://notenoughtech.com/raspberry-pi/use-raspberry-pi-wol/))
 - sudo apt-get install etherwake
+- nano Scripts/wol.sh
+```
+#!/bin/bash
+echo !!! Wake my PC
+sudo etherwake -i eth0 00:00:00:00:00:00
+```
 
 **Git**
 - sudo apt install git
