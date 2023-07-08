@@ -3,6 +3,10 @@
 ### Set up List
 - sudo apt-get update && sudo apt-get upgrade
 
+#### Mirror
+http://mirror.ox.ac.uk/sites/archive.raspbian.org/archive/raspbian
+- sudo nano /etc/apt/sources.list
+
 **CPU Temp**
 - vcgencmd measure_temp
 
@@ -44,6 +48,17 @@ static domain_name_servers=192.168.0.1
 - sudo chown -R snap:snap /NAS/ExHDD01/
 - /dev/sda1 /NAS/ExHDD01 auto defaults,nofail,user 0 1
 - sudo vim /etc/samba/smb.conf
+```
+[NAS]
+        comment=NAS
+        path=/NAS/ExHDD01
+        browseable=yes
+        writeable=yes
+        only guest=no
+        create mask=0777
+        directory mask=0777
+        public=yes
+```
 - sudo /etc/init.d/samba-ad-dc restart
 
 **Web-Server** ([credit](https://www.raspberrypi.org/documentation/remote-access/web-server/apache.md))
