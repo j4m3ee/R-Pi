@@ -19,6 +19,9 @@ http://www.raspbian.org/RaspbianMirrors
 **Remmina**
 - sudo apt-get install remmina remmina-plugin-rdp
 
+**Raspotify** ([credit](https://github.com/dtcooper/raspotify))
+- sudo apt-get -y install curl && curl -sL https://dtcooper.github.io/raspotify/install.sh | sh
+
 **Static ip** ([credit](https://www.ionos.com/digitalguide/server/configuration/provide-raspberry-pi-with-a-static-ip-address/))
 - sudo service dhcpcd status
 - sudo service dhcpcd start
